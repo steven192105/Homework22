@@ -1,0 +1,50 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  color: white;
+  cursor: pointer;
+  background-color: #c0b3bc;
+  font-size: 25px;
+  padding: 20px;
+  text-transform: uppercase;
+}
+
+.Comment {
+  display: flex;
+  margin-top: 30px;
+  justify-content: center;
+}
+
+.Avatar {
+  border-radius: 100%;
+}
+
+.UserInfo-name {
+  font-style: italic;
+}
+
+.Comment-details {
+  background-color: #b3d4f5;
+  border-radius: 5px;
+  padding: 15px;
+  margin-left: 20px;
+  position: relative;
+  width: 500px;
+  text-align: left;
+  padding-bottom: 40px;
+}
+
+.Comment-text {
+  color: #383535;
+  font-size: 20px;
+}
+
+.Comment-date {
+  color: white;
+  font-size: 12px;
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+}
