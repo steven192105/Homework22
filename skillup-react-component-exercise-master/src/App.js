@@ -19,10 +19,10 @@ function App() {
       <div className="App-content">
         {
           <Comment
-            avatarUrl="comment.author.avatarUrl"
-            name="comment.author.name"
-            text="comment.text"
-            date="comment.date"
+            avatarUrl={comment.author.avatarUrl}
+            name={comment.author.name}
+            text={comment.text}
+            date={comment.date}
           />
         }
       </div>
